@@ -1,0 +1,34 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 5%;
+  }
+  
+.cuadrado {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(156, 156, 156);
+    margin: 10px;
+    border-radius: 5px;
+}
+  
+  @media (max-width: 1200px) {
+    .contenedor {
+        margin: 0px;
+    }
+    .cuadrado {
+        width: 100%;
+        height: 500px;
+    }
+ }
+
+  @media (max-width: 768px) {
+    .contenedor {
+      margin: 0px;
+    }
+    .cuadrado {
+        width: 100%;
+        height: 500px;
+    }
+  }

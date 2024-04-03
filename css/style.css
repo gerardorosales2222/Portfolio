@@ -10,6 +10,13 @@ header{
   height: 150px;
   margin-bottom: 20px;
 }
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #303030;
+}
 
 .contenedor {
     display: flex;
@@ -46,10 +53,18 @@ header{
 }
 
 footer{
-  width: 90%;
-  margin: auto;
-  background-color: bisque;
-  border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 181, 175);
+    margin-bottom: 50px;
+    margin: 50px 0 50px 0;
+    height: 200px;
+}
+
+ul li {
+  display: inline;
+  padding-right: 0.5em;
 }
 
 
@@ -59,8 +74,8 @@ footer{
   }
   .cuadrado {
     margin: 0 0 50px 0;
-    background-color: rgb(246, 203, 30);
   }
+  
 }
 
 @media (max-width: 960px) {
